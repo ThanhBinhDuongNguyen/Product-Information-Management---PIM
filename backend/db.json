@@ -1,5 +1,314 @@
 {
   "products": [
-    { "id": "98fb597c-ee72-4709-a7fd-6a0d0934e242", "sku": "Bluetooth Speaker S400_23", "name": "Bluetooth Speaker S400", "family": "Consumer Electronics", "completeness": 100, "uom": "EA" }
-  ]
+    {
+      "id": "98fb597c-ee72-4709-a7fd-6a0d0934e242",
+      "sku": "Bluetooth Speaker S400_23",
+      "name": "Bluetooth Speaker S400",
+      "family": "Consumer Electronics",
+      "completeness": 100,
+      "uom": "EA",
+      "brandCode": "techtrend",
+      "status": "ENRICHED",
+      "gtin": "0194253847625",
+      "netWeight": 0.82,
+      "grossWeight": 1.1,
+      "dimensions": {
+        "length": 24,
+        "width": 11,
+        "height": 9,
+        "unit": "CM"
+      },
+      "cost": 34.5,
+      "salePrice": 69.9,
+      "sellerFeeRate": 0.12,
+      "voucherFunding": 0,
+      "version": 2
+    },
+    {
+      "id": "826b49e4-46ff-4bc8-85d2-f83b4064a5ca",
+      "sku": "Breakfast Cereal C200",
+      "name": "Breakfast Cereal C200",
+      "family": "Food & Beverages",
+      "completeness": 100,
+      "uom": "EA",
+      "brandCode": "freshmart",
+      "status": "ENRICHED",
+      "gtin": "0194253847632",
+      "netWeight": 0.45,
+      "grossWeight": 0.52,
+      "dimensions": {
+        "length": 19,
+        "width": 7,
+        "height": 26,
+        "unit": "CM"
+      },
+      "cost": 2.8,
+      "salePrice": 5.9,
+      "sellerFeeRate": 0.1,
+      "voucherFunding": 0.3,
+      "version": 1
+    },
+    {
+      "id": "9cec5b18-2ffd-44fc-aef4-e7f0af92409a",
+      "sku": "Casual Sneakers SN300",
+      "name": "Casual Sneakers SN300",
+      "family": "Footwear",
+      "completeness": 82,
+      "uom": "EA",
+      "brandCode": "stepmax",
+      "status": "READY_FOR_REVIEW",
+      "gtin": "0194253847649",
+      "netWeight": 0.7,
+      "grossWeight": 0.95,
+      "dimensions": {
+        "length": 34,
+        "width": 22,
+        "height": 14,
+        "unit": "CM"
+      },
+      "cost": 22,
+      "salePrice": 49.9,
+      "sellerFeeRate": 0.13,
+      "voucherFunding": 0,
+      "version": 2
+    },
+    {
+      "id": "2e14a045-f1f8-4db9-9115-5e919c6e6e24",
+      "sku": "Face Wash FW500_14",
+      "name": "Face Wash FW500",
+      "family": "Beauty & Personal Care",
+      "completeness": 74,
+      "uom": "EA",
+      "brandCode": "glowcare",
+      "status": "DRAFT",
+      "gtin": "0194253847656",
+      "netWeight": 0.15,
+      "grossWeight": 0.22,
+      "dimensions": {
+        "length": 5,
+        "width": 5,
+        "height": 16,
+        "unit": "CM"
+      },
+      "cost": 4.5,
+      "salePrice": 12.9,
+      "sellerFeeRate": 0.12,
+      "voucherFunding": 0,
+      "version": 1
+    },
+    {
+      "id": "4bd1071a-7b93-4976-881c-98485e1ee3b9",
+      "sku": "Formal Blazer B500_4",
+      "name": "Formal Blazer B500",
+      "family": "Clothing & Apparel",
+      "completeness": 67,
+      "uom": "EA",
+      "brandCode": "urbanstyle",
+      "status": "DRAFT",
+      "gtin": "0194253847663",
+      "netWeight": 0.65,
+      "grossWeight": 0.85,
+      "dimensions": {
+        "length": 45,
+        "width": 34,
+        "height": 8,
+        "unit": "CM"
+      },
+      "cost": 45,
+      "salePrice": 99,
+      "sellerFeeRate": 0.12,
+      "voucherFunding": 0,
+      "version": 1
+    }
+  ],
+  "families": [
+    {
+      "id": "consumer-electronics",
+      "label": "Consumer Electronics",
+      "requiredAttributes": [
+        "brand",
+        "model",
+        "net_weight",
+        "main_image"
+      ]
+    },
+    {
+      "id": "food-beverages",
+      "label": "Food & Beverages",
+      "requiredAttributes": [
+        "brand",
+        "net_weight",
+        "ingredients",
+        "main_image"
+      ]
+    },
+    {
+      "id": "footwear",
+      "label": "Footwear",
+      "requiredAttributes": [
+        "brand",
+        "size",
+        "color",
+        "main_image"
+      ]
+    },
+    {
+      "id": "beauty-personal-care",
+      "label": "Beauty & Personal Care",
+      "requiredAttributes": [
+        "brand",
+        "volume",
+        "ingredients",
+        "main_image"
+      ]
+    },
+    {
+      "id": "clothing-apparel",
+      "label": "Clothing & Apparel",
+      "requiredAttributes": [
+        "brand",
+        "size",
+        "color",
+        "main_image"
+      ]
+    }
+  ],
+  "channelMappings": [
+    {
+      "id": "mapping-speaker-tiktok",
+      "productId": "98fb597c-ee72-4709-a7fd-6a0d0934e242",
+      "channel": "TikTok",
+      "shop": "SHOP-DEMO",
+      "listingId": "LIST-S400",
+      "variantId": "VAR-S400-23",
+      "version": 1,
+      "effectiveAt": "2026-11-16T08:00:00Z",
+      "status": "ACTIVE"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-speaker",
+      "productId": "98fb597c-ee72-4709-a7fd-6a0d0934e242",
+      "label": "Asset for Bluetooth Speaker S400",
+      "code": "speaker-main",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 320450,
+      "checksum": "demo-speaker",
+      "usageStatus": "ACTIVE",
+      "isMain": true,
+      "rightsStatus": "APPROVED"
+    }
+  ],
+  "importBatches": [
+    {
+      "id": "import-001",
+      "fileName": "catalog-seed.csv",
+      "sourceScope": "catalog",
+      "checksum": "seed-001",
+      "createdAt": "2026-11-18T02:42:00Z",
+      "status": "COMPLETED",
+      "createdCount": 0,
+      "updatedCount": 5,
+      "errorCount": 0
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "exception-001",
+      "productId": "2e14a045-f1f8-4db9-9115-5e919c6e6e24",
+      "owner": "Catalog approver",
+      "dueAt": "2026-11-22T17:00:00Z",
+      "reason": "Missing product-origin evidence",
+      "evidence": "Supplier document pending",
+      "action": "Request supplier document",
+      "status": "OPEN",
+      "verifiedOutcome": null
+    }
+  ],
+  "exportJobs": [
+    {
+      "id": "export-001",
+      "channel": "TikTok",
+      "shop": "SHOP-DEMO",
+      "productId": "98fb597c-ee72-4709-a7fd-6a0d0934e242",
+      "status": "EXPORTED",
+      "evidence": "CSV generated for marketplace operator",
+      "createdAt": "2026-11-18T02:42:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-001",
+      "productId": "98fb597c-ee72-4709-a7fd-6a0d0934e242",
+      "author": "Bình",
+      "occurredAt": "2026-11-18T02:42:00Z",
+      "version": 1,
+      "modified": [
+        "sku",
+        "name",
+        "assets",
+        "mappingVersion"
+      ],
+      "reason": "Initial catalog load"
+    },
+    {
+      "productId": "98fb597c-ee72-4709-a7fd-6a0d0934e242",
+      "author": "Catalog approver",
+      "occurredAt": "2026-11-18T16:13:50.873Z",
+      "version": 2,
+      "modified": [
+        "lifecycle status"
+      ],
+      "reason": "DRAFT → ENRICHED; approval evidence recorded",
+      "id": "5zQQno8IfmY"
+    }
+  ],
+  "fieldOwners": [
+    {
+      "id": "owner-001",
+      "field": "salePrice",
+      "ownerRole": "Catalog approver",
+      "allowedRoles": [
+        "Catalog approver"
+      ],
+      "sourceSystems": [
+        "PIM"
+      ]
+    },
+    {
+      "id": "owner-002",
+      "field": "grossWeight",
+      "ownerRole": "Warehouse",
+      "allowedRoles": [
+        "Warehouse",
+        "Catalog editor"
+      ],
+      "sourceSystems": [
+        "PIM",
+        "WMS"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "tb",
+      "name": "Thanh Binh",
+      "email": "binhndtse182321@fpt.edu.vn",
+      "role": "Catalog editor"
+    },
+    {
+      "id": "approver",
+      "name": "Catalog Approver",
+      "email": "approver@nexus.local",
+      "role": "Catalog approver"
+    },
+    {
+      "id": "warehouse",
+      "name": "Warehouse Operator",
+      "email": "warehouse@nexus.local",
+      "role": "Warehouse"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
